@@ -90,8 +90,10 @@
             }
         .icon-box{
             position: relative;
+            margin: auto;
             img{
                 margin-left: 21px;
+              
             }
            
             .number{
@@ -1028,6 +1030,36 @@
         border-left: none;
         border-right: none;
         .content-box{
+          
+            .collapse{
+
+                .social{
+                    display: flex;
+                    margin: auto;
+                    
+                    img{
+                        margin-left: 15px;
+                    }
+                    .doom{
+                        position: relative;
+                    }
+                    p{
+                        position: absolute;
+                        top: -4px;
+                        right: -6px;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #3056D3;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                   
+                }
+                
+            }
             
             .logo{
                 margin-right: 90px;
@@ -1042,9 +1074,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+        
             .nav-item{
                 .blue{
                     color: #3056D3 !important;
+                   
                 }
 
                
@@ -1100,29 +1134,9 @@
                 }
             }
 
-            .social{
-                display: flex;
-                img{
-                    margin-left: 15px;
-                }
-                .doom{
-                    position: relative;
-                }
-                p{
-                    position: absolute;
-                    top: -4px;
-                    right: -6px;
-                    width: 18px;
-                    height: 18px;
-                    border-radius: 50%;
-                    background-color: #3056D3;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-               
-            }
+           
+              
+           
             
             
            }
@@ -1157,9 +1171,9 @@
                 
                 
                 .card-box1{
-                    background-image: url(/product-img/section-two/Rectangle\ 4925.png);
+                    background-image: url(product-img/section-two/Rectangle\ 4925.png);
                     background-repeat: no-repeat;
-                    
+                    background-position:center;
                     padding-top: 105px;
                     padding-left: 65px;
                   
@@ -1193,7 +1207,8 @@
                     }
                 }
                 .card-box2{
-                    background-image: url(/product-img/section-two/Rectangle\ 4926.png );
+                    background-image: url(product-img/section-two/Rectangle\ 4926.png );
+                    background-position: bottom;
                     background-size: cover;
                     width: 100%;
                     margin-bottom: 30px;
@@ -1219,7 +1234,8 @@
                 }
 
                 .card-box3{
-                    background-image: url(/product-img/section-two/Rectangle\ 4927.png);
+                    background-image: url(product-img/section-two/Rectangle\ 4927.png);
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 100%;

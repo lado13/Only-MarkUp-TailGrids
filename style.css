@@ -79,6 +79,7 @@
 }
 .section-one .content-box .icon .icon-box {
   position: relative;
+  margin: auto;
 }
 .section-one .content-box .icon .icon-box img {
   margin-left: 21px;
@@ -828,6 +829,28 @@
   border-left: none;
   border-right: none;
 }
+.child-box .nav-second .content-box .collapse .social {
+  display: flex;
+  margin: auto;
+}
+.child-box .nav-second .content-box .collapse .social img {
+  margin-left: 15px;
+}
+.child-box .nav-second .content-box .collapse .social .doom {
+  position: relative;
+}
+.child-box .nav-second .content-box .collapse .social p {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #3056D3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .child-box .nav-second .content-box .logo {
   margin-right: 90px;
   transition: all 0.4s ease-in-out;
@@ -887,27 +910,6 @@
 .child-box .nav-second .content-box .navbarr .nav-item .space {
   margin-right: 35px;
 }
-.child-box .nav-second .content-box .navbarr .social {
-  display: flex;
-}
-.child-box .nav-second .content-box .navbarr .social img {
-  margin-left: 15px;
-}
-.child-box .nav-second .content-box .navbarr .social .doom {
-  position: relative;
-}
-.child-box .nav-second .content-box .navbarr .social p {
-  position: absolute;
-  top: -4px;
-  right: -6px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: #3056D3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .child-box .section-two .content-box .roww {
   margin-top: 40px;
 }
@@ -926,8 +928,9 @@
   box-shadow: 1px 1px 20px black;
 }
 .child-box .section-two .content-box .roww .card-box1 {
-  background-image: url(/product-img/section-two/Rectangle\ 4925.png);
+  background-image: url(product-img/section-two/Rectangle\ 4925.png);
   background-repeat: no-repeat;
+  background-position: center;
   padding-top: 105px;
   padding-left: 65px;
 }
@@ -960,7 +963,8 @@
   scale: 1.2;
 }
 .child-box .section-two .content-box .roww .card-box2 {
-  background-image: url(/product-img/section-two/Rectangle\ 4926.png);
+  background-image: url(product-img/section-two/Rectangle\ 4926.png);
+  background-position: bottom;
   background-size: cover;
   width: 100%;
   margin-bottom: 30px;
@@ -984,7 +988,8 @@
   padding-bottom: 35px;
 }
 .child-box .section-two .content-box .roww .card-box3 {
-  background-image: url(/product-img/section-two/Rectangle\ 4927.png);
+  background-image: url(product-img/section-two/Rectangle\ 4927.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
