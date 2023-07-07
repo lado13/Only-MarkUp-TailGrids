@@ -1,3 +1,7 @@
+.section-one .content-box {
+  max-width: 1517px;
+  margin: auto;
+}
 .section-one .bg {
   background-color: white;
 }
@@ -101,6 +105,10 @@
   scale: 1.5;
 }
 
+.section-two {
+  max-width: 1297px;
+  margin: auto;
+}
 .section-two .carusel-bg {
   background-image: url(img/section-one/Rectangle\ 4924.png);
 }
@@ -642,9 +650,6 @@
 .section-seven .content-box .col-box1 .inner-box input::-moz-placeholder {
   color: #FFFFFF;
 }
-.section-seven .content-box .col-box1 .inner-box input:-ms-input-placeholder {
-  color: #FFFFFF;
-}
 .section-seven .content-box .col-box1 .inner-box input::placeholder {
   color: #FFFFFF;
 }
@@ -786,7 +791,6 @@
   margin: 0;
 }
 .section-eight .second-container .last img {
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   margin-left: 18px;
@@ -1302,6 +1306,10 @@
   border-top: none;
   border-left: none;
   border-right: none;
+}
+.child-box .section-seven .flue .roww {
+  max-width: 1297px;
+  margin: auto;
 }
 .child-box .section-seven .flue .col-box {
   text-align: center;
